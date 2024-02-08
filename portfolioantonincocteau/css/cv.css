@@ -1,0 +1,176 @@
+/* POLICES*/
+
+@font-face {
+	
+	font-family: "Kollektif";	
+	src: url('../portfolioantonincocteau/polices/Kollektif.ttf');
+	}
+
+@font-face {
+	
+		font-family: "Kollektif-italic";	
+		src: url('../portfolioantonincocteau/polices/Kollektif-Italic.ttf');
+		}
+	
+@font-face {
+	
+			font-family: "Kollektif-bold";	
+			src: url('../portfolioantonincocteau/polices/Kollektif-Bold.ttf');
+			}
+		
+
+@font-face {
+	
+			font-family: "Kollektif-bold-italic";	
+			src: url('../portfolioantonincocteau/polices/Kollektif-BoldItalic.ttf');
+			}
+
+
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  
+  body{
+    font-family: "Kollektif", Kollektif;
+    font-weight: 300;
+    font-size: .9rem;
+    
+
+  }
+
+  .cv-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left-column right-column right-column";
+    width: 1200px;
+    margin: 100px auto; /* Modifier cette ligne pour centrer horizontalement */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  
+.ligne{
+  line-height: 1.5;
+  
+}
+  
+  p{
+    margin: 0 0 1rem;
+  }
+  
+  h1{
+    margin: 0 0 1rem;
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+  }
+  
+  h2{
+    margin: 0 0 1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+  }
+  
+  .text-brown{
+    color: #B47042;
+  }
+  
+  .text-darkblue{
+    color: #B47042;
+  }
+  
+  .text-uppercase{
+    text-transform: uppercase; 
+  }
+  
+  .icon{
+    margin-right: .5rem;
+  }
+  
+  .cv-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left-column right-column right-column";
+    width: 1200px;
+    margin: 100px auto;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+  
+  .section{
+    margin-bottom: 1.5rem;
+    font-size: 16px;
+  }
+  
+
+  .left-column{
+    grid-area: left-column;
+    padding: 50px;
+    background-color: #B47042;
+    color: #ffffff;
+  }
+  
+  .portait{
+    border-radius: 30%;
+    max-width: 150px;
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+  }
+  
+  .skills{
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    margin: 0 0 1rem;
+  }
+  
+
+  .right-column{
+    grid-area: right-column;
+    display: grid;
+    grid-template-rows: 250px 1fr;
+    grid-template-areas: 
+      "header"
+      "content";
+  }
+  
+
+  .header{
+    grid-area: header;
+    padding: 50px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .infos{
+    columns: 2;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+
+  .content{
+    grid-area: content;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .experience-list{
+    list-style-type: circle;
+  }
+
+  label {
+    padding-right: 10px;
+    font-size: 1rem;
+  }
+
+
+  .experience{
+    color:#B47042
+  }
