@@ -101,6 +101,7 @@
   .section{
     margin-bottom: 1.5rem;
     font-size: 16px;
+    
   }
   
 
@@ -120,7 +121,7 @@
   }
   
   .skills{
-    list-style-type: none;
+    list-style: none;
     padding: 0;
     font-size: 1.1rem;
     letter-spacing: 1px;
@@ -140,17 +141,20 @@
 
   .header{
     grid-area: header;
-    padding: 50px;
+    padding: 81px;
     background-color: #F2F2F2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+    margin-top:50px;
   }
   
   .infos{
     columns: 2;
-    list-style-type: none;
+    list-style: none;
     padding: 0;
   }
   
@@ -162,7 +166,7 @@
   }
   
   .experience-list{
-    list-style-type: circle;
+    list-style: none;
   }
 
   label {
@@ -174,3 +178,4 @@
   .experience{
     color:#B47042
   }
+
