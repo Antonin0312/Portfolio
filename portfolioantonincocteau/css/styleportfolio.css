@@ -111,7 +111,7 @@ list-style: none;
 
 
 h1 {
-    font-size: 25vw; /* Utilisation de vw pour la taille de police */
+    font-size: 15vw; /* Utilisation de vw pour la taille de police */
     /* Tu peux ajuster cette valeur en fonction de tes besoins */
     /* Assure-toi d'ajouter également d'autres règles CSS pour les différentes tailles d'écran si nécessaire */
 }
