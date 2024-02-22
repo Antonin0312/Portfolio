@@ -35,6 +35,7 @@ if (isset($_POST['envoyer'])) {
 
             $stmt->execute();
 
+        
     
 }
 ?>
@@ -48,37 +49,12 @@ if (isset($_POST['envoyer'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../portfolioantonincocteau/css/styleportfolio.css">
-
-<!-- Titre -->         <meta name="Description" content="Page d'Accueil Arrivée sur ma page de contact" />
-<!-- Description --> <meta name="contact" content="formulaire de contact, carte localisation"  />
-<!-- Nom de l'auteur --> <meta name="author" content="Antonin Cocteau"  /> 
-<!-- Icone -->  <link rel="icon" type="image/png" href="../portfolioantonincocteau/images/favicon.png" />
-<!-- La langue principale du site --><meta name="langue" content="Français FR"  />
-
-
-<!--FACEBOOK-->
-<!--L'url du site --> <meta property="og:url" content="https://portfolioantonincocteau.netlify.app/portfolioantonincocteau/portfoliopage4" />
-<!--Le type de page --> <meta property="og:type" content="blog" />
-<!--Le titre de la page--> <meta property="og:title" content="Page de contact" />
-<!--La description de la page--> <meta property="og:description" content="Nous contacter ?" />
-<!--Une image représentant le site--> <meta property="og:image" src="../portfolioantonincocteau/images/LogoAntoninCocteau.jpg" alt="LogoAntoninCocteau"/>   
-
-
-<!--X-->
-<!--Le type de X card--> <meta name="twitter:card" content="summary" />
-<!--Le @ (nom d'utilisateur twitter)--> <meta name="twitter:site" content="@AntoninCocteau" />
-<!--Le nom de l'utilsateur du site--> <meta name="twitter:creator" content="@AntoninCocteau" />
-<!--L'url du site--> <meta property="og:url" content="https://portfolioantonincocteau.netlify.app/portfolioantonincocteau/portfoliopage4" />
-<!--Le titre de la page--> <meta property="og:title" content="Page de contact" />
-<!--La description de la page--> <meta property="og:description" content="Nous contacter ?" />
-<!--Une image représentant le site--> <meta property="og:image" src="../portfolioantonincocteau/images/LogoAntoninCocteau.jpg" alt="LogoAntoninCocteau"/>
-
-    <title>Portfolio | Antonin Cocteau | CONTACT</title>
-
-
+    <title>Portfolio | Antonin Cocteau | MON CV</title>
     <style>
  
-    
+          
+          
+
       @media only screen and (max-width: 600px) {
 
           .image {
