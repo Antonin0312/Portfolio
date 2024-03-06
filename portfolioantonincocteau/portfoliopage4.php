@@ -120,6 +120,14 @@ dans la ville de Reims. Aujourd'hui, je vis dans la ville de Charleville-Méziè
 <meta name="msapplication-TileColor" content="#ffc40d">
 <meta name="theme-color" content="#ffffff">
 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TX8X29X4');</script>
+    <!-- End Google Tag Manager -->
+
 
 
     <title>Portfolio | Antonin Cocteau | CONTACT</title>
@@ -177,6 +185,11 @@ dans la ville de Reims. Aujourd'hui, je vis dans la ville de Charleville-Méziè
   </style>
 </head>
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX8X29X4"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <nav id="nav-3" role="navigation" aria-label="Menu de navigation">
         <a class="link-3" href="index.html">Qui suis-je ?</a>
         <a class="link-3" href="PORTFOLIOPAGE2.html">Mon CV</a>
