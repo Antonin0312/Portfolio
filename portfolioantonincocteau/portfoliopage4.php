@@ -73,6 +73,20 @@ if (isset($_POST['envoyer'])) {
 <!--La description de la page--> <meta property="og:description" content="Nous contacter ?" />
 <!--Une image représentant le site--> <meta property="og:image" src="../portfolioantonincocteau/images/LogoAntoninCocteau.jpg" alt="LogoAntoninCocteau"/>
 
+
+<!--PWA-->
+<link rel="apple-touch-icon" sizes="180x180" href="../portfolioantonincocteau/favicon_package_v0.16/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../portfolioantonincocteau/favicon_package_v0.16/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../portfolioantonincocteau/favicon_package_v0.16/favicon-16x16.png">
+<link rel="manifest" href="../portfolioantonincocteau/favicon_package_v0.16/site.webmanifest">
+<link rel="mask-icon" href="../portfolioantonincocteau/favicon_package_v0.16/safari-pinned-tab.svg" color="#b47042">
+<meta name="apple-mobile-web-app-title" content="Portfolio Antonin Cocteau">
+<meta name="application-name" content="Portfolio Antonin Cocteau">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="theme-color" content="#ffffff">
+
+
+
     <title>Portfolio | Antonin Cocteau | CONTACT</title>
 
 
@@ -128,7 +142,7 @@ if (isset($_POST['envoyer'])) {
   </style>
 </head>
 <body>
-    <nav id="nav-3">
+    <nav id="nav-3" role="navigation" aria-label="Menu de navigation">
         <a class="link-3" href="index.html">Qui suis-je ?</a>
         <a class="link-3" href="PORTFOLIOPAGE2.html">Mon CV</a>
         <a class="link-3" href="PORTFOLIOPAGE3.html">Mes réalisations</a>
