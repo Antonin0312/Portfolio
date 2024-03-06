@@ -56,22 +56,33 @@ if (isset($_POST['envoyer'])) {
 <!-- La langue principale du site --><meta name="langue" content="Français FR"  />
 
 
-<!--FACEBOOK-->
-<!--L'url du site --> <meta property="og:url" content="https://portfolioantonincocteau.netlify.app/portfolioantonincocteau/portfoliopage4" />
-<!--Le type de page --> <meta property="og:type" content="blog" />
-<!--Le titre de la page--> <meta property="og:title" content="Page de contact" />
-<!--La description de la page--> <meta property="og:description" content="Nous contacter ?" />
-<!--Une image représentant le site--> <meta property="og:image" src="../portfolioantonincocteau/images/LogoAntoninCocteau.jpg" alt="LogoAntoninCocteau"/>   
+<!-- FACEBOOK -->
+<!-- L'URL du site -->
+<meta property="og:url" content="https://portfolioantonincocteau.netlify.app/portfolioantonincocteau/portfoliopage4" />
+<!-- Le type de page -->
+<meta property="og:type" content="website" />
+<!-- Le titre de la page -->
+<meta property="og:title" content="Page de contact" />
+<!-- La description de la page -->
+<meta property="og:description" content="Nous contacter ?" />
+<!-- Une image représentant le site -->
+<meta property="og:image" content="https://portfolioantonincocteau.netlify.app/portfolioantonincocteau/images/LogoAntoninCocteau.jpg" />
 
-
-<!--X-->
-<!--Le type de X card--> <meta name="twitter:card" content="summary" />
-<!--Le @ (nom d'utilisateur twitter)--> <meta name="twitter:site" content="@AntoninCocteau" />
-<!--Le nom de l'utilsateur du site--> <meta name="twitter:creator" content="@AntoninCocteau" />
-<!--L'url du site--> <meta property="og:url" content="https://portfolioantonincocteau.netlify.app/portfolioantonincocteau/portfoliopage4" />
-<!--Le titre de la page--> <meta property="og:title" content="Page de contact" />
-<!--La description de la page--> <meta property="og:description" content="Nous contacter ?" />
-<!--Une image représentant le site--> <meta property="og:image" src="../portfolioantonincocteau/images/LogoAntoninCocteau.jpg" alt="LogoAntoninCocteau"/>
+<!-- TWITTER -->
+<!-- Le type de carte Twitter -->
+<meta name="twitter:card" content="summary" />
+<!-- Le nom d'utilisateur Twitter du site -->
+<meta name="twitter:site" content="@AntoninCocteau" />
+<!-- Le nom d'utilisateur Twitter du créateur -->
+<meta name="twitter:creator" content="@AntoninCocteau" />
+<!-- L'URL du site -->
+<meta property="og:url" content="https://portfolioantonincocteau.netlify.app/portfolioantonincocteau/portfoliopage4" />
+<!-- Le titre de la page -->
+<meta property="og:title" content="Page de contact" />
+<!-- La description de la page -->
+<meta property="og:description" content="Nous contacter ?" />
+<!-- Une image représentant le site -->
+<meta property="og:image" content="https://portfolioantonincocteau.netlify.app/portfolioantonincocteau/images/LogoAntoninCocteau.jpg" />
 
 
 <!--PWA-->
