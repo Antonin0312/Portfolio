@@ -128,6 +128,15 @@ dans la ville de Reims. Aujourd'hui, je vis dans la ville de Charleville-Méziè
     })(window,document,'script','dataLayer','GTM-TX8X29X4');</script>
     <!-- End Google Tag Manager -->
 
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N9QKLFESXN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N9QKLFESXN');
+</script>
 
 
     <title>Portfolio | Antonin Cocteau | CONTACT</title>
