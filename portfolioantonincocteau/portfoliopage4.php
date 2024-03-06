@@ -52,7 +52,7 @@ if (isset($_POST['envoyer'])) {
 <!-- Titre -->         <meta name="Description" content="Page d'Accueil Arrivée sur ma page de contact" />
 <!-- Description --> <meta name="contact" content="formulaire de contact, carte localisation"  />
 <!-- Nom de l'auteur --> <meta name="author" content="Antonin Cocteau"  /> 
-<!-- Icone -->  <link rel="icon" type="image/png" href="../portfolioantonincocteau/images/favicon.png" />
+<!-- Icone -->             <link rel="icon" type="image/png" href="../portfolioantonincocteau/images/favicon.svg" />
 <!-- La langue principale du site --><meta name="langue" content="Français FR"  />
 
 
