@@ -128,90 +128,77 @@ if (isset($_POST['envoyer'])) {
   </style>
 </head>
 <body>
-  <nav id="nav-3">
-      <a class="link-3" href="index.html">Qui suis-je ?</a>
-      <a class="link-3" href="PORTFOLIOPAGE2.html">Mon CV</a>
-      <a class="link-3" href="PORTFOLIOPAGE3.html">Mes réalisations</a>
-      <a class="link-3" href="portfoliopage4.php">Me contacter</a>
-  </nav>
+    <nav id="nav-3">
+        <a class="link-3" href="index.html">Qui suis-je ?</a>
+        <a class="link-3" href="PORTFOLIOPAGE2.html">Mon CV</a>
+        <a class="link-3" href="PORTFOLIOPAGE3.html">Mes réalisations</a>
+        <a class="link-3" href="portfoliopage4.php">Me contacter</a>
+    </nav>
 
-  <main>
-    
-   <form class="body" method="POST">
-        <p> <b class="titreform"> Vous cherchez à me joindre ? <br> Remplissez le formulaire ci-dessous :</b><p>
+  
+<main>
+    <form itemprop="formcontact"  class="body" method="POST">
+        <p><b class="titreform"> Vous cherchez à me joindre ? <br> Remplissez le formulaire ci-dessous :</b><p>
 
         <div class="separation"></div>
 
         <div class="corps-formulaire">
 
-          <div class="gauche">
+            <div class="gauche">
 
-            <div class="groupe">
-              <label>Votre Nom</label>
-              <input type="text" name="nom">
-              <i class="fas fa-user"></i>
+                <div class="groupe">
+                    <label>Votre Nom</label>
+                    <input type="text" name="nom">
+                    <i class="fas fa-user"></i>
+                </div>
+
+                <div class="groupe">
+                    <label>Votre Prénom</label>
+                    <input type="text" name="prenom">
+                    <i class="fas fa-user"></i>
+                </div>
+
+                <div class="groupe">
+                    <label>Votre adresse e-mail</label>
+                    <input type="text" name="mail">
+                    <i class="fas fa-envelope"></i>
+                </div>
+
+                <div class="groupe">
+                    <label>Votre téléphone</label>
+                    <input type="text" name="tel">
+                    <i class="fas fa-mobile"></i>
+                </div>
+
             </div>
 
-            <div class="groupe">
-              <label>Votre Prénom</label>
-              <input type="text" name="prenom">
-              <i class="fas fa-user"></i>
-            </div>
+            <div class="droite">
+                <div class="groupe">
+                    <label>Message</label>
+                    <textarea placeholder="Saisissez ici..." name="message"></textarea>
+                </div>
 
-            <div class="groupe">
-              <label>Votre adresse e-mail</label>
-              <input type="text" name="mail">
-              <i class="fas fa-envelope"></i>
             </div>
-
-            <div class="groupe">
-              <label>Votre téléphone</label>
-              <input type="text" name="tel">
-              <i class="fas fa-mobile"></i>
-            </div>
-
-          </div>
-  
-          <div class="droite">
-            <div class="groupe">
-              <label>Message</label>
-              <textarea placeholder="Saisissez ici..."   name="message"    ></textarea>
-            </div>
-
-          </div>
 
         </div>
-  
-        <div class="pied-formulaire"> 
-          <input type="submit" value="Envoyer le formulaire" name="envoyer"> 
+
+        <div class="pied-formulaire">
+            <input type="submit" value="Envoyer le formulaire" name="envoyer">
         </div>
-      </div>
+    </form>
 
-      
+    <form itemprop="map"class="body">
+        <p><b class="titreform"> Vous souhaitez me rencontrez ? <br> Regardez ci-dessous :</b><p>
+            <div class="separation"></div><br><br>
+            <div class="map-container">
+                <div class="separation"></div><br><br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2578.6073007768787!2d4.717911477115893!3d49.737015971464736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ea121febee2aed%3A0x1a7aa6d161ffb8e7!2s3%20Rue%20Claude%20Chr%C3%A9tien%2C%2008000%20Charleville-M%C3%A9zi%C3%A8res!5e0!3m2!1sfr!2sfr!4v1704361524987!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+    </form>
 
-
-      </form>
-
-
-<form class="body">
-  <p> <b class="titreform"> Vous souhaitez me rencontrez ? <br> Regardez ci-dessous :</b><p>
-    <div class="separation"></div><br><br>
-  <div class="map-container">
-   
-
-      <div class="separation"></div><br><br>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2578.6073007768787!2d4.717911477115893!3d49.737015971464736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ea121febee2aed%3A0x1a7aa6d161ffb8e7!2s3%20Rue%20Claude%20Chr%C3%A9tien%2C%2008000%20Charleville-M%C3%A9zi%C3%A8res!5e0!3m2!1sfr!2sfr!4v1704361524987!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-   
-</form>
-
-      
 </main>
-      <footer class="footerpage4">
-        Antonin Cocteau - Novembre 2023 - <strong> <a  style="color:#ffff"; href="MENTIONLEGALE.html" rel="nofollow" >Mentions légales </strong></a>
-                  
+    <footer class="footerpage4">
+        Antonin Cocteau - Novembre 2023 - <strong> <a itemprop="url" style="color:#ffff"; href="MENTIONLEGALE.html" rel="nofollow">Mentions légales </strong></a>
     </footer>
-    
-    
-
 </body>
 </html>
