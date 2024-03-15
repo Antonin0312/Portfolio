@@ -71,7 +71,7 @@ dans la ville de Reims. Aujourd'hui, je vis dans la ville de Charleville-Méziè
 <!-- La langue principale du site --> <meta name="langue" content="Français FR"  />
 
 <link rel="canonical" href="https://portfolioantonincocteau.netlify.app/portfolioantonincocteau/portfoliopage4">
-
+<meta name="robots" content="index, follow">
 
 
 <!-- FACEBOOK -->
