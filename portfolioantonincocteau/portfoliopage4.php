@@ -70,6 +70,9 @@ dans la ville de Reims. Aujourd'hui, je vis dans la ville de Charleville-Méziè
 <meta name="keywords" content="Reims, Grand Est, Éducation à Reims">
 <!-- La langue principale du site --> <meta name="langue" content="Français FR"  />
 
+<link rel="canonical" href="https://portfolioantonincocteau.netlify.app/portfolioantonincocteau/portfoliopage4">
+
+
 
 <!-- FACEBOOK -->
 <!-- L'URL du site -->
