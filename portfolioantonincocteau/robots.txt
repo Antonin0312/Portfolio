@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/          # Interdit l'accès au répertoire admin et à ses sous-répertoires
+Disallow: /private_page/  # Interdit l'accès au répertoire private_page et à ses sous-répertoires
+
+Sitemap: https://portfolioantonincocteau.netlify.app/portfolioantonincocteau/
