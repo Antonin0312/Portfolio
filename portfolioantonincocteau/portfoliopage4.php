@@ -49,8 +49,8 @@ if (isset($_POST['envoyer'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../portfolioantonincocteau/css/styleportfolio.css">
 
-<!-- Titre -->          <meta name="Description" content="Page d'Accueil Arrivée sur ma page de contact" />
-<!-- Desciption -->     <meta name="Description" content="Nom et prenom - Antonin Cocteau - 20 ans - 03/12/2003 - Qualité, 
+<!-- Titre -->          <meta name="description" content="Page d'Accueil Arrivée sur ma page de contact" />
+<!-- Desciption -->     <meta name="description" content="Nom et prenom - Antonin Cocteau - 20 ans - 03/12/2003 - Qualité, 
 Personne calme, dynamique et à l'écoute de votre tâche qui m'est attribué. Toujours vécu en Champagne Ardenne
 dans la ville de Reims. Aujourd'hui, je vis dans la ville de Charleville-Mézières,  études de webdesign." />
 <!-- Nom de l'auteur --> <meta name="author" content="Antonin Cocteau"  />
